@@ -1,0 +1,27 @@
+name: products_manager_flutter
+description: Front-end side for product manager
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  gap: ^3.0.1
+  http:
+  flutter_slidable: ^3.0.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
